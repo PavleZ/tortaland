@@ -1,0 +1,212 @@
+body{
+    font-family: 'Open Sans' !important;
+   
+}
+
+*{
+    box-sizing: border-box !important;
+}
+a,h1,h2,h3{
+    font-family: 'Cinzel', serif;
+}
+.pozadina{
+    background-color: #1D2F47;
+}
+.pozadina2{
+    background-color: #DAD0C2;
+}
+.pozadina2:hover{
+    background-color:#fff !important; 
+}
+
+.ikonica{
+    color:#fff;
+}
+a:hover,.dp:hover{
+    color:#DAD0C2 !important;
+    transition: .4s !important;
+}
+.np{
+    padding: 0px;
+}
+.carousel-inner img{
+    max-height: 700px;
+}
+.tekst{
+    font-size:1.5em;
+    padding:0.5em 0em;
+}
+.tekstVeci{ font-size:1.2em;
+}
+.bordertk{
+    border:3px solid #DAD0C2;
+}
+.bordertk:hover  {
+   
+    border:3px solid #1D2F47;
+}
+.bordertk:hover .ttk{
+    color:#1D2F47;
+}
+.torte{
+    max-width:100px;
+    max-height: 100px; 
+}
+.ttk{
+    color:#DAD0C2;
+
+}
+.prva,.druga{
+    height: 100px;
+}
+.kolaci{
+    max-width:100px;
+    max-height: 100px; 
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    color:#1D2F47;
+}
+.linkovi{
+    font-family: 'Open Sans' !important;
+}
+.soc{
+    font-size:1.6rem;
+    color:#000;
+}
+.socv{
+    font-size:2rem;
+    color:#000;
+}
+.soc:hover,.socv:hover{
+    color:#1D2F47;
+    transition:.3s;
+}
+.autor{
+    color:#1D2F47;
+}
+.autor:hover{
+    color: #DAD0C2;
+    transition: .2s;
+}
+.fborder{
+    border-top:3px solid #1D2F47;
+}
+.textHolder{
+   display: flex;
+   justify-content: center;
+}
+.linija{
+    
+    width:3rem;
+    height: 2px;
+    margin: 0.5em auto;
+    background: #DAD0C2;
+}
+.row{ margin-left: 0; margin-right: 0;}
+
+    .container .row{margin-left: -15px; margin-right: -15px;}
+/*--Materialize ukidanje nekih svojstava-----*/
+nav{
+    background-color:transparent; 
+    height: unset;
+    border:transparent;
+    line-height: 20px;
+}
+nav ul li.active{
+    background-color:transparent; 
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav{
+    box-shadow: none;
+}
+nav ul li a:hover{
+    background-color: transparent;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    background-color: #fff;
+     border: unset; 
+     border-radius: .25rem; 
+     outline: none; 
+     height: 3rem; 
+    width: 100%; 
+     font-size: 16px; 
+    margin: 0 0 8px 0; 
+    padding: 0; 
+    -webkit-box-shadow: none;  
+     box-shadow: none; 
+     -webkit-box-sizing: content-box; 
+    box-sizing: content-box; 
+ 
+  
+}
+.btn:hover{
+    background: transparent;
+}
+button:focus {
+    background-color: transparent;
+}
+.kartica-link{
+    font-family: 'Open Sans' !important;
+}
+.btn, .btn-large, .btn-small, .btn-flat{
+    height:unset;
+}
+
+
+.margina{
+    margin-top: 70px;
+}
+
+.kontaktForma{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #9e9e9e !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    height: 3rem !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important; 
+    -webkit-box-sizing: content-box !important; 
+     box-sizing: content-box !important; 
+     -webkit-transition: border .3s, -webkit-box-shadow .3s !important; 
+    transition: border .3s, -webkit-box-shadow .3s !important;
+    transition: box-shadow .3s, border .3s !important;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+    color:#fff;
+}
+.tkf{
+    color:#1D2F47;
+}
+.bt{
+    color:#fff;
+  
+}
+textarea::placeholder {
+    color: #fff; 
+
+  }
+  .mod{
+      background-color: #DAD0C2;
+
+  }
+  .mod:hover{
+      background-color:#fff;
+      color:#1D2F47; 
+  }
+  .modal{
+      background-color: transparent;
+  }
+  .z-depth-5, .modal{
+      box-shadow: none;
+  }
+ .tik:hover{
+     text-decoration:none;
+     
+
+ }
